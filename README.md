@@ -3,6 +3,12 @@
 ## Requirements
 * Python 3.6 or above - it doesn't matter conda env or virtenv
 * All the packages described in requirements file
+* Decompress dataset file
+
+```sh
+# inside of dataset folder
+unzip eu-west-1.csv.zip
+```
 
 ## How does it run?
 Just run the arima or lstm script with no arguments
